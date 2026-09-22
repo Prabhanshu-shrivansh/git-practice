@@ -112,4 +112,23 @@
 #         result.append(i)
 # print(result)
 
-            
+#find the even and odd in the list
+# numbers = [10, 15, 20, 33, 42, 55, 60, 71]
+# even=[]
+# odd=[]
+# for i in numbers:
+#     if i%2==0:
+#         even.append(i)
+#     else:
+#         odd.append(i)
+        
+# print(even)
+# print(odd)
+
+# numbers = [0, 1, 0, 3, 12, 0, 5]
+# pos=0
+# for i in range(len(numbers)):
+#     if numbers[i]!=0:
+#         numbers[pos],numbers[i]=numbers[i],numbers[pos]
+#         pos+=1
+# print(numbers)
