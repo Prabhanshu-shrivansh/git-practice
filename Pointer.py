@@ -63,5 +63,38 @@
 # if is_palindrome:
 #     print("Palindrome")
 # else:
-#     print("Not Palindrome")
+#     print("Not Palindrome") 
+
+#find the middlw value 
+# num=[1,2,3,4,5,6,7,8,9]
+# slow=0
+# fast=0
+# while fast+1<len(num):
+#     slow+=1
+#     fast+=2
+# print(num[slow])
+
+
+#print all possible pairs
+# numbers = [1, 2, 3, 4, 6, 8, 9]
+# target = 10
+# left=0
+# right=len(numbers)-1
+# while left<right:
+#     total=numbers[left]+numbers[right]
+#     if total==target:
+#         print(numbers[left],numbers[right])
+#         left+=1
+#         right-=1
         
+#     elif total<target:
+#         left+=1
+#     else:
+#         right-=1
+
+
+# # find the closest value of the target
+# numbers = [1, 3, 5, 7, 9, 12]
+# target = 11
+
+
