@@ -98,3 +98,10 @@
 # target = 11
 
 
+lst=[1,2,3,1,1,1,3,5,6,1]
+pos=0
+for i in range(len(lst)):
+    if lst[pos]!=0:
+        lst[pos],lst[i]=lst[i],lst[pos]
+        pos+=1
+print(lst)
