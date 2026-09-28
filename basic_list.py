@@ -269,3 +269,43 @@
 #         dup.append(i)
         
 # print(dup)
+
+
+#sum of all value of dict
+# data = {
+#     "a": 10,
+#     "b": 20,
+#     "c": 30,
+#     "d": 40
+# }
+# total=0
+# for i in data.values():
+#     total+=i
+# print(total)
+
+#find max value
+# data = {
+#     "a": 10,
+#     "b": 20,
+#     "c": 30,
+#     "d": 40
+# }
+# total=0
+# for i in data.values():
+#     if i>total:
+#         total=i
+# print(total)
+
+data = {
+    "a": 10,
+    "b": 50,
+    "c": 30,
+    "d": 20
+}
+max=0
+max_key=""
+for key , value in data.items():
+    if value>max:
+        max=value
+        max_key=key
+print(max_key) 
