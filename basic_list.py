@@ -296,16 +296,50 @@
 #         total=i
 # print(total)
 
-data = {
-    "a": 10,
-    "b": 50,
-    "c": 30,
-    "d": 20
-}
-max=0
-max_key=""
-for key , value in data.items():
-    if value>max:
-        max=value
-        max_key=key
-print(max_key) 
+#find the key with maximum value
+# data = {
+#     "a": 10,
+#     "b": 50,
+#     "c": 30,
+#     "d": 20
+# }
+# max=0
+# max_key=""
+# for key , value in data.items():
+#     if value>max:
+#         max=value
+#         max_key=key
+# print(max_key) 
+
+#method overloading total of all element
+# def fun(*num):
+#     total=0
+#     for i in num:
+#         total+=i
+#     return total
+    
+# new=fun(1,2,3,4,5,6)
+# print(new)
+
+# sum of values in form of duic tkey and values
+# def fun(**num):
+#     total=0
+#     for key,value in num.items():
+#         total+=value
+#     return total
+    
+# new=fun(a=1,b=2,c=3,d=4)
+# print(new)
+
+# gives both args and kwargs
+# def fun(*arm, **num):
+#     total = 0
+#     for key, value in num.items():
+#         total += value
+#     for i in arm:
+#         total += i
+#     return total
+
+
+# new = fun(1, 2, 3, 4, 5, a=1, b=2, c=3, d=4)
+# print(new)
