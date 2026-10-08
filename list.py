@@ -132,3 +132,35 @@
 #         numbers[pos],numbers[i]=numbers[i],numbers[pos]
 #         pos+=1
 # print(numbers)
+
+#fuind duplicate in list
+# nums = [1, 2, 2, 3, 1, 4, 3]
+# result=[]
+# for i in range(len(nums)):
+#     found=False
+#     for j in range(len(result)):
+#         if nums[i]==result[j]:
+#             found=True
+#             break
+    
+#     if not found:
+#         result=result+ [nums[i]]
+
+# print(result)         
+
+
+
+# from random import randint
+# nums=[]
+# new=[]
+# high=0
+# for i in range(100):
+#     num=randint(1,100)
+#     nums=nums+[num]
+
+# for j in nums:
+#     if j >high:
+#         new.append(j)
+
+# print(new)
+# print(nums)
