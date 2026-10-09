@@ -164,3 +164,140 @@
 
 # print(new)
 # print(nums)
+
+# #reverse the number
+# num=12345
+# rev=0
+# while num>0:
+#     digit=num%10
+#     rev=rev*10+digit
+#     num=num//10
+
+# print(rev)
+
+#Palindrom 
+# num = 121
+# temp=num
+# rev=0
+# while temp>0:
+#     digit=temp%10
+#     rev =rev*10+digit
+#     temp//=10
+    
+# if rev==num:
+#     print("palindrom")
+# else:
+#     print("NOT")
+
+# nums = [1, 2, 3, 5, 6, 7, 8]
+# exp=0
+# act=0
+# for i in range(1,len(nums)+2):
+#     exp+=i
+# for j in nums:
+#     act+=j
+    
+# missing=exp-act
+# print(missing)
+
+# nums = [45, 12, 89, 3, 67, 21]
+# high=float('-inf')
+# second=float('-inf')
+
+# for i in nums:
+#     if i>high:
+#         second=high
+#         high=i
+#     elif i> second and i!=high:
+#         second=i
+    
+# print(high)
+# print(second)
+
+# nums = [45, 12, 89, 3, 67, 21]
+# high=nums[0]
+# small=nums[0]
+# for i in nums:
+#     if i>high:
+#         high=i
+#     if i<small:
+#         small=i
+# print(high)
+# print(small)
+
+# nums = [1, 2, 2, 3, 1, 4, 2, 3]
+# freq={}
+# for i in nums:
+#     if i not in freq:
+#         freq[i]=1
+#     else:
+#         freq[i]+=1
+# print(freq)
+
+# nums = [2, 7, 11, 15, 3, 6]
+# target = 9
+# for i in range(len(nums)):
+#     for j in range(i+1,len(nums)):
+#         if nums[i]+nums[j]==target:
+#             print(nums[i], nums[j])
+
+# nums = [0, 1, 0, 3, 12, 0, 5]
+# pos=0
+# for i in range(len(nums)):
+#     if nums[i]!=0:
+#         nums[pos],nums[i]=nums[i],nums[pos]
+#         pos+=1
+# print(nums)
+
+# student={}
+# for i in range(1,101):
+#     name=input(f"enter the student name{i}")
+#     age=int(input(f"enter the age{i}"))
+    
+#     student[name]=age
+    
+# print(student)
+
+
+#all negative at starting
+# nums = [3, -1, 5, -2, 8, -4, 7]
+# pos=0
+# for i in range(len(nums)):
+#     if nums[i]<0:
+#         nums[i],nums[pos]=nums[pos],nums[i]
+#         pos+=1
+# print(nums)
+        
+# nums = [3, 8, 5, 2, 7, 4, 9, 6]
+# pos=0
+# for i in range(len(nums)):
+#     if nums[i]%2==0:
+#         nums[pos],nums[i]=nums[i],nums[pos]
+#         pos+=1
+# print(nums)
+
+# s = "aabbcddee"
+
+# for i in range(len(s)):
+#     found = False
+
+#     for j in range(len(s)):
+#         if i != j and s[i] == s[j]:
+#             found = True
+#             break
+
+#     if not found:
+#         print(s[i])
+#         break
+
+# nums = [12, 5, 8, 3, 5, 2, 9]
+# small=float('inf')
+# second=float('inf')
+# for i in nums:
+#     if i <small:
+#         second=small
+#         small=i
+#     elif i<second and i!=small:
+#         second=i
+        
+# print(second)
